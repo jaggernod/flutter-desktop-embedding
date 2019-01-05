@@ -44,7 +44,7 @@
 
 static_assert(FLUTTER_ENGINE_VERSION == 1, "");
 
-static constexpr double kDpPerInch = 160.0;
+static constexpr double kDpPerInch = 50.0;
 
 // Struct for storing state within an instance of the GLFW Window.
 struct FlutterEmbedderState {
@@ -67,7 +67,7 @@ struct FlutterEmbedderState {
   double window_pixels_per_screen_coordinate = 1.0;
 };
 
-static constexpr char kDefaultWindowTitle[] = "Flutter";
+static constexpr char kDefaultWindowTitle[] = "Flare";
 
 // Retrieves state bag for the window in question from the GLFWWindow.
 static FlutterEmbedderState *GetSavedEmbedderState(GLFWwindow *window) {
