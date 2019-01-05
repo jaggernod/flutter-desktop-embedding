@@ -1,6 +1,3 @@
-[submodule "example/flare-presentation"]
-	path = example/flutter_app
-	url = git@github.com:jaggernod/flare-presentation.git
 [submodule "example/external/flare-presentation"]
 	path = example/external/flare-presentation
 	url = git@github.com:jaggernod/flare-presentation.git

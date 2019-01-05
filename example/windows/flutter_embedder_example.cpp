@@ -32,7 +32,7 @@ int main(int argc, char **argv) {
   // Start the engine.
   // TODO: Make paths relative to the executable so it can be run from anywhere.
   auto window = flutter_desktop_embedding::CreateFlutterWindowInSnapshotMode(
-      640, 480, "..\\..\\example\\flutter_app\\build\\flutter_assets",
+      640, 480, "..\\..\\example\\external\\flare-presentation\\build\\flutter_assets",
       "..\\..\\library\\windows\\dependencies\\engine\\icudtl.dat", arguments);
   if (window == nullptr) {
     flutter_desktop_embedding::FlutterTerminate();

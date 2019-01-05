@@ -52,7 +52,7 @@ necessary to bypass checks for an attached iOS or Android device.
 
 ### VS Code
 
-Open the Flutter portion of your application (e.g., `/example/flutter_app`).
+Open the Flutter portion of your application (e.g., `example/external/flare-presentation`).
 Add a [launch
 configuration](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)
 like the following, substituting your Observatory port:
