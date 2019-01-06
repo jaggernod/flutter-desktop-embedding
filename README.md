@@ -1,3 +1,14 @@
+# Desktop Container for Flare Presentation
+
+This is based on amasing Desktop Embedding for Flutter.
+In this fork I use the Container for Flare presentation to run on a Desktop.
+
+The project is composed of several git submodules so please use the following for cloning:
+
+```
+git clone <THIS_PROJECT> --recursive
+```
+
 # Desktop Embedding for Flutter
 
 The purpose of this project is to support building
